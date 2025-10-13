@@ -45,7 +45,7 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
     
   </head>
-  <body class="text-text-dark antialiased bg-amber-50">
+  <body class="text-text-dark antialiased bg-amber-950">
 
     <!-- NAVBAR -->
     <?php include('includes/navbar.php'); ?>
