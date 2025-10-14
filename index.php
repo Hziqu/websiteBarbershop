@@ -12,7 +12,8 @@ if (isset($_POST['submit'])) {
               VALUES ('$nama', '$email', '$alamat', '$no_telp')";
 
     if (mysqli_query($conn, $query)) {
-        echo "<script>alert('Registrasi berhasil!'); window.location='login.php';</script>";
+        echo "<script>alert('Reg
+        istrasi berhasil!'); window.location='login.php';</script>";
     } else {
         echo "<script>alert('Terjadi kesalahan: " . mysqli_error($conn) . "');</script>";
     }
@@ -45,7 +46,7 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
     
   </head>
-  <body class="text-text-dark antialiased bg-amber-950">
+  <body class="text-text-dark antialiased bg-amber-50">
 
     <!-- NAVBAR -->
     <?php include('includes/navbar.php'); ?>
