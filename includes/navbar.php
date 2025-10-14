@@ -7,8 +7,8 @@
     <div class="hidden lg:flex space-x-8 text-sm text-white">
       <a href="index.php" class="hover:text-yellow-600 transition duration-300">HOME</a>
       <a href="services.php" class="hover:text-yellow-600 transition duration-300">LAYANAN</a>
-      <a href="#" class="hover:text-yellow-600 transition duration-300">GALERI</a>
-      <a href="#" class="hover:text-yellow-600 transition duration-300">TENTANG KAMI</a>
+      <a href="galeri.php" class="hover:text-yellow-600 transition duration-300">GALERI</a>
+      <a href="about.php" class="hover:text-yellow-600 transition duration-300">TENTANG KAMI</a>
       <a href="#" class="hover:text-yellow-600 transition duration-300">KONTAK</a>
     </div>
 
