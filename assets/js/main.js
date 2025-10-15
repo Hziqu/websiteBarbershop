@@ -1,6 +1,6 @@
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 800, // durasi animasi (ms)
+      duration: 100, // durasi animasi (ms)
       once: true,    // kalau mau muncul sekali saja
     });
   });

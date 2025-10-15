@@ -42,7 +42,7 @@
 <!-- Hero Section -->
     <section style="background-image: url('./assets/images/bg-1.jpg');" class="z-1 hero relative h-[60vh] bg-cover bg-center w-full flex items-center justify-center text-white">
       <div class="overlay absolute inset-0 bg-black/35"></div>
-      <div class="relative z-10 text-center">
+      <div data-aos="fade-up" class="relative z-10 text-center">
         <h2 class="text-4xl font-bold mb-2">Galeri</h2>
         <p class="text-gray-200">
           <a href="index.php" class="hover:text-yellow-400">Home</a>
@@ -56,7 +56,7 @@
     <section class="bg-amber-50">
       <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <!-- Card -->
-        <div class="relative group overflow-hidden shadow-md">
+        <div data-aos="fade-up" class="relative group overflow-hidden shadow-md">
           <img
             src="assets/images/work-1.jpg"
             class="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-110"
@@ -70,7 +70,7 @@
           </div>
         </div>
 
-        <div class="relative group overflow-hidden shadow-md">
+        <div data-aos-delay="50" data-aos="fade-up" class="relative group overflow-hidden shadow-md">
           <img
             src="assets/images/work-2.jpg"
             class="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-110"
@@ -84,7 +84,7 @@
           </div>
         </div>
 
-        <div class="relative group overflow-hidden shadow-md">
+        <div data-aos-delay="100" data-aos="fade-up" class="relative group overflow-hidden shadow-md">
           <img
             src="assets/images/work-3.jpg"
             class="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-110"
@@ -98,7 +98,7 @@
           </div>
         </div>
 
-        <div class="relative group overflow-hidden shadow-md">
+        <div data-aos-delay="150" data-aos="fade-up" class="relative group overflow-hidden shadow-md">
           <img
             src="assets/images/work-4.jpg"
             class="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-110"
@@ -112,7 +112,7 @@
           </div>
         </div>
 
-        <div class="relative group overflow-hidden shadow-md">
+        <div data-aos="fade-up" class="relative group overflow-hidden shadow-md">
           <img
             src="assets/images/work-5.jpg"
             class="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-110"
@@ -126,7 +126,7 @@
           </div>
         </div>
 
-        <div class="relative group overflow-hidden shadow-md">
+        <div data-aos-delay="50" data-aos="fade-up" class="relative group overflow-hidden shadow-md">
           <img
             src="assets/images/work-6.jpg"
             class="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-110"
@@ -140,7 +140,7 @@
           </div>
         </div>
 
-        <div class="relative group overflow-hidden shadow-md">
+        <div data-aos-delay="100" data-aos="fade-up" class="relative group overflow-hidden shadow-md">
           <img
             src="assets/images/work-7.jpg"
             class="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-110"
@@ -154,7 +154,7 @@
           </div>
         </div>
 
-        <div class="relative group overflow-hidden shadow-md">
+        <div data-aos-delay="150" data-aos="fade-up" class="relative group overflow-hidden shadow-md">
           <img
             src="assets/images/work-8.jpg"
             class="w-full h-96 object-cover transition-transform duration-300 group-hover:scale-110"
