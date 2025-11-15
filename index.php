@@ -225,7 +225,6 @@ if (isset($_POST['submit'])) {
             <p class="text-gray-600 text-center font-light">
               Saya adalah Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti obcaecati veniam eaque...
             </p>
-            <button class="text-indigo-500 py-2 px-4 font-medium mt-4">Show more</button>
           </div>
         </div>
       </div>
