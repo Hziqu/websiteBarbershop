@@ -22,21 +22,19 @@
           <div data-aos="fade-up">
             <h2 class="text-lg font-semibold mb-4">Information</h2>
             <ul class="space-y-2 text-sm">
-              <li><a href="#" class="text-gray-400 hover:text-white transition duration-200 block py-1">FAQs</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white transition duration-200 block py-1">Privacy</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white transition duration-200 block py-1">Terms Condition</a></li>
+              <li>FAQs</li>
+              <li>Privacy</li>
+              <li>Terms Condition</li>
             </ul>
           </div>
 
           <div data-aos="fade-up">
             <h2 class="text-lg font-semibold mb-4">Links</h2>
             <ul class="space-y-2 text-sm">
-              <li><a href="#" class="text-gray-400 hover:text-white transition duration-200 block py-1">Home</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white transition duration-200 block py-1">About</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white transition duration-200 block py-1">Services</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white transition duration-200 block py-1">Work</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white transition duration-200 block py-1">Blog</a></li>
-              <li><a href="#" class="text-gray-400 hover:text-white transition duration-200 block py-1">Contact</a></li>
+              <li><a href="index.php" class="text-gray-400 hover:text-white transition duration-200 block py-1">Home</a></li>
+              <li><a href="about.php" class="text-gray-400 hover:text-white transition duration-200 block py-1">About</a></li>
+              <li><a href="services.php" class="text-gray-400 hover:text-white transition duration-200 block py-1">Layanan</a></li>
+              <li><a href="galeri.php" class="text-gray-400 hover:text-white transition duration-200 block py-1">Galeri</a></li>
             </ul>
           </div>
 
@@ -51,11 +49,11 @@
               </li>
               <li class="flex items-center group">
                 <i class="fa-solid fa-phone mr-3 transition transform group-hover:scale-110 group-hover:text-white"></i>
-                <a href="#" class="text-gray-400 hover:text-white transition duration-200">083152794153</a>
+                <a href="https://www.whatsapp.com/?lang=en" class="text-gray-400 hover:text-white transition duration-200">083152794153</a>
               </li>
               <li class="flex items-center group">
                 <i class="fab fa-instagram mr-3 transition transform group-hover:scale-110 group-hover:text-white"></i>
-                <a href="#" class="text-gray-400 hover:text-white transition duration-200">Barberkah Nobo Tengah</a>
+                <a href="https://www.instagram.com/barberkah_nobotengah?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" class="text-gray-400 hover:text-white transition duration-200">Barberkah Nobo Tengah</a>
               </li>
             </ul>
           </div>
