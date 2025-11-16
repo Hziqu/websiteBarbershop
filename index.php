@@ -319,14 +319,6 @@ $profil      = mysqli_fetch_assoc($queryProfil);
 
                     </div>
                 </div>
-
-                <!-- INDICATORS -->
-                <div class="mt-5 flex justify-center gap-2 mb-4">
-                    <button class="indicator w-8 h-[2px] bg-gray-300" data-index="0"></button>
-                    <button class="indicator w-8 h-[2px] bg-gray-300" data-index="1"></button>
-                    <button class="indicator w-8 h-[2px] bg-gray-300" data-index="2"></button>
-                </div>
-
             </section>
 
 

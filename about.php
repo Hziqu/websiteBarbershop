@@ -179,7 +179,7 @@ $abt = mysqli_fetch_assoc($about);
             <button id="nextBtn"></button>
           </div>
 
-          <div id="slides">
+          <div id="slides" data-aos="fade-up">
 
             <?php 
             $first = true;
@@ -187,7 +187,7 @@ $abt = mysqli_fetch_assoc($about);
             while ($t = mysqli_fetch_assoc($testimoni)):
             ?>
 
-            <article class="slide <?= $first ? 'active' : '' ?> " data-aos="fade-up">
+            <article class="slide <?= $first ? 'active' : '' ?> ">
               <div class="flex gap-4 items-center">
                 <img src="assets/images/<?= $t['avatar']; ?>" class="w-16 h-16 rounded-full object-cover" />
                 <div>
@@ -243,10 +243,6 @@ document.getElementById('nextBtn').addEventListener('click', () => {
   showSlide((current + 1) % slides.length);
 });
 
-// autoplay (opsional)
-setInterval(() => {
-  showSlide((current + 1) % slides.length);
-}, 6000);
 </script>
 
 </body>

@@ -5,7 +5,7 @@
 include "config/connection.php";
 
 // Ambil data galeri (8 terbaru)
-$query  = "SELECT * FROM galeri ORDER BY id_galeri DESC LIMIT 8";
+$query  = "SELECT * FROM galeri ORDER BY id_galeri DESC";
 $result = $conn->query($query);
 ?>
 
@@ -94,10 +94,6 @@ $result = $conn->query($query);
         <div class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 py-10 px-3">
 
             <?php
-            // fetch ulang biar aman (meski sudah di atas)
-            $query  = "SELECT * FROM galeri LIMIT 8";
-            $result = $conn->query($query);
-
             foreach ($result as $row):
             ?>
 
